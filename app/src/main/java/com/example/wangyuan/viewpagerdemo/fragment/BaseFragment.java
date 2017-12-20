@@ -48,7 +48,7 @@ public abstract class BaseFragment extends Fragment {
     }
 
     protected  void isCanLoadDate(){
-        if (!isInit) {//未完成布局加载  返回
+        if (!isInit) {//未完成布局加载  拦截返回
             return;
         }
 
